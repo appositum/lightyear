@@ -1,3 +1,5 @@
 *_doc/
 *.ibc
 *~
+elba.lock
+target/

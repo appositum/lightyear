@@ -1,0 +1,20 @@
+[package]
+name = "ziman/lightyear"
+version = "0.1.0"
+authors = []
+
+[dependencies]
+
+[targets.lib]
+path = "."
+mods = [
+  "Lightyear",
+  "Lightyear.Position",
+  "Lightyear.Core",
+  "Lightyear.Combinators",
+  "Lightyear.StringFile",
+  "Lightyear.Strings",
+  "Lightyear.Char",
+  "Lightyear.Testing"
+]
+idris_opts = ["-p", "effects"]
